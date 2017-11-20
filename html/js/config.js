@@ -18,12 +18,10 @@
 /**
  * This is just a place to put all your API authentication keys
  */
-Config = function() {
-    return {
-        // Replace with an API key for Google Cloud Vision API
-        // DO NOT DO THIS IN PRODUCTION!!! For Demo purposes only.
-        visionAPI: {
-            key: "AIzaSyCKbNZem3UKzkWy8NST2Al7gKWpAXFduWU"
-        }
-    }
-}();
+var Config = {
+  // Replace with an API key for Google Cloud Vision API
+  // DO NOT DO THIS IN PRODUCTION!!! For Demo purposes only.
+  visionAPI: {
+    key: "AIzaSyCKbNZem3UKzkWy8NST2Al7gKWpAXFduWU"
+  }
+}
