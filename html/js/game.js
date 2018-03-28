@@ -303,9 +303,9 @@ var Game = (function() {
      * in the picture, and add it to the game.
      * */
     function detectMyFacialEmotion(gameRef, game) {
-        var gcsPath = game.creator.gcsPath;
+        var gcsPath = game.creator.downloadURL;
         if (game.joiner.uid == firebase.auth().currentUser.uid) {
-            gcsPath = game.joiner.gcsPath;
+            gcsPath = game.joiner.downloadURL;
         }
 
         //may not be my path, so quit out early, as I may not have a value.

@@ -13,7 +13,7 @@
 #  limitations under the License.
 
 FROM node
-
+cd
 RUN apt-get update && \
     apt-get -y install wget curl less python unzip zsh git make nano
 
