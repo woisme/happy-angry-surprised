@@ -22,6 +22,6 @@ var Config = {
   // Replace with an API key for Google Cloud Vision API
   // DO NOT DO THIS IN PRODUCTION!!! For Demo purposes only.
   visionAPI: {
-    key: "AIzaSyCKbNZem3UKzkWy8NST2Al7gKWpAXFduWU"
+    key: "REPLACE_WITH_YOUR_GOOGLE_VISION_API"
   }
 }
